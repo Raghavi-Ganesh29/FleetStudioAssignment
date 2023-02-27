@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <parameter name="appURL" value="https://www.accessibility.com/digital-lawsuits"/>
+  <parameter name="browserType" value="chrome"/>
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.mavenproject.assignment.testcases.defendentInfoPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifydefendentInfoPage"/>
+          <include name="TearDown"/>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.mavenproject.assignment.testcases.defendentInfoPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

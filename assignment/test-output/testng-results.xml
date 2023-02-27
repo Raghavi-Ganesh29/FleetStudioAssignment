@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20333" started-at="2023-02-27T19:58:37Z" finished-at="2023-02-27T19:58:57Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="20333" started-at="2023-02-27T19:58:37Z" finished-at="2023-02-27T19:58:57Z">
+      <class name="com.mavenproject.assignment.testcases.defendentInfoPageTest">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.mavenproject.assignment.testcases.defendentInfoPageTest@159f197]" name="initializeTestBaseSetup" is-config="true" duration-ms="9967" started-at="2023-02-28T01:28:37Z" finished-at="2023-02-28T01:28:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.accessibility.com/digital-lawsuits]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mavenproject.assignment.testcases.defendentInfoPageTest@159f197]" name="setUp" is-config="true" duration-ms="5266" started-at="2023-02-28T01:28:47Z" finished-at="2023-02-28T01:28:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifydefendentInfoPage()[pri:0, instance:com.mavenproject.assignment.testcases.defendentInfoPageTest@159f197]" name="verifydefendentInfoPage" duration-ms="3731" started-at="2023-02-28T01:28:52Z" finished-at="2023-02-28T01:28:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifydefendentInfoPage -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.mavenproject.assignment.testcases.defendentInfoPageTest@159f197]" name="TearDown" is-config="true" duration-ms="208" started-at="2023-02-28T01:28:56Z" finished-at="2023-02-28T01:28:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mavenproject.assignment.testcases.defendentInfoPageTest@159f197]" name="tearDown" is-config="true" duration-ms="1147" started-at="2023-02-28T01:28:56Z" finished-at="2023-02-28T01:28:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mavenproject.assignment.testcases.defendentInfoPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
